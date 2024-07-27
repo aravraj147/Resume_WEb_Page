@@ -7,13 +7,25 @@
 
 #img {
   border: solid black;
-  max-width: 50%;
+  width:90%;
 }
-.profile {
+.carrerobj{
+  padding:20px;
+  margin-top: 1%;
+  margin-left:1%;
+  border: solid black;
+  border-radius: 5px;
+  font-size: larger;
+  background-color: rgb(245, 245, 199);
+}
+.pic {
   width: 20%;
-  margin-left: auto;
   padding-top: 25px;
   padding-right: 50px;
+}
+.profile{
+  display: flex;
+  flex-direction: row;
 }
 .profile img {
   min-height: max-content;
@@ -177,6 +189,10 @@ h2 {
   border: solid black;
   background-color: rgb(178, 132, 190);
 }
+.div8 img{
+  width:100px;
+  min-height: max-content;
+}
 
 .div9 {
   display: flex;
@@ -186,13 +202,17 @@ h2 {
 .div9 img{
   width:100px;
   min-height: max-content;
+  border: solid black;
+  border-radius: 3px;
 }
 .div9 div{
-  width:15%;
+  width:20%;
   max-height: 10%;
   text-align:center;
   border:solid black;
   border-radius: 5px;
   margin:2%;
   padding:15px;
+  font-size: larger;
+  background-color: rgb(221, 90, 90);
 }
